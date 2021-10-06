@@ -1,0 +1,41 @@
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section{
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.b1{
+    background-color: #80E1D4;
+}
+
+.b2{
+    background-color: #9696ff;
+}
+
+.b3{
+background-color: #85E1F4;
+}
+
+.b4{
+    background-color: #E89380;
+}
+
+.transition .b1{
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    delay: 0.5s;
+}
+
+.transition .b1:hover{
+    width: 400px;
+}
